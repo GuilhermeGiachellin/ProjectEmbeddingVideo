@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-3">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,12 +8,40 @@
     <link rel="stylesheet" href="style.css">
     <title>Embbeding Images and Videos</title>
 </head>
+
 <body>
     <header>
-        <div class="search-box">
-            <input type="text">          
+        <button>
+            <img src="Images/menu.svg" alt="menu">
+        </button>
+        <button>
+            <a href="https://www.youtube.com/"><img src="Images/yt-logo.svg" alt="YouTube" class=""></a>
+        </button>
+        <div class="search-bar">
+            <input type="search-bar" placeholder="Search" class="search-input">
+            <button><img src="Images/magnify.svg" alt=""></button>
+        </div>
+        <div class="user">
+            <button><img src="Images/video-plus.svg" alt=""></button>
+            <button><img src="Images/apps.svg" alt=""></button>
+            <button><img src="Images/dots-vertical.svg" alt=""></button>
+            <button><img src="Images/account-circle.svg" alt=""></button>
         </div>
     </header>
+    <div class="content">
+        <main>
+            <section class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/obU8sw2A0MA"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </section>
+        </main>
+        <aside>
 
+        </aside>
+    </div>
 </body>
+
 </html>
